@@ -26,3 +26,15 @@ def technical_mentors(group)
     end
 end
 
+# Staff option
+if option == 1
+    puts 'Select your staff category:'
+    puts '1. Classroom'
+    puts '2. General'
+    print 'Option: '
+    category = gets.to_i
+    if category == 1 || 2
+        payment
+    end 
+end
+
