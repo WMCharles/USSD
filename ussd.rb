@@ -13,3 +13,16 @@ def payment
     puts ''
     puts "Paid $#{payment}. Thanks."
 end
+
+# Selecting Mentors
+def technical_mentors(group)
+    if group == 1
+        puts '1. Faith Kilonzi'
+        puts '2. Rhonajoy'
+    end
+    if group == 2
+        puts '1. Sam G '
+        puts '2. Bin Amin'
+    end
+end
+
