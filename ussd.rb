@@ -38,3 +38,32 @@ if option == 1
     end 
 end
 
+# Student Option 
+if option == 2
+    puts 'Select your Cohort'
+    puts '1. MPP25'
+    puts '2. MPP26'
+    print 'Option: '
+    group = gets.to_i
+    puts ''
+
+    if group == 1 
+        puts "Select your Technical Mentor"
+        technical_mentors(group)
+        print 'Option: '
+        tm = gets.to_i
+        if tm == 1 || 2
+            payment
+        end  
+    end
+
+    if group == 2
+        puts "Select your Technical Mentor"
+        technical_mentors(group)
+        print 'Option: '
+        tm = gets.to_i
+        if tm == 1 || 2
+            payment
+        end
+    end
+end
